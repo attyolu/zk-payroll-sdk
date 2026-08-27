@@ -81,6 +81,7 @@ export {
 export type { PayrollIdempotencyKeyInput, PaymentIdempotencyKeyInput } from "./core/idempotency";
 export { Semaphore } from "./core/concurrency";
 export * from "./crypto/IProofGenerator";
+export * from "./proofs/freshness";
 export { resolveProofConfig, resolveProofConfigFromEnv } from "./crypto/ProofConfigResolver";
 export type { ProofConfigResolverOptions } from "./crypto/ProofConfigResolver";
 export * from "./adapters";
